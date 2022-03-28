@@ -1,0 +1,61 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Student</title>
+
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/r
+eleases/v5.10.0/css/all.css" integrity="sha384-
+AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHf
+GJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" type="text/css" href="styles.css" />
+
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+<div id="container">
+  <div id="header">
+    <h1 id="baslik"><a id="baslik2" href="http://www.free-css.com/free-css-layouts.php">STUDENT INFORMATION SYSTEM</a></h1>
+  </div>
+  <div id="navigation">
+
+    <br/>
+    <p id="obis"><strong> ADU OBIS SYSTEM</strong></p>
+    <ul>
+      <li><a href="Homepage.aspx"><i class="fas fa-home"></i>HOME PAGE</a></li>
+      <li><a href="Students.aspx"><i class="fas fa-user-friends"></i>STUDENTS</a></li>
+      <li><a href="Courses.aspx"><i class="fas fa-books"></i>COURSES</a></li>
+         <li><a href="Projects.aspx"><i class="fas fa-books"></i>STUDENT PROJECTS</a></li>
+      <li><a href="Userlogin.aspx"><i class="fas fa-user-edit"></i>USER LOGIN</a></li>
+    </ul>
+  </div>
+  <div id="extra">
+
+  
+     
+  
+      <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+      </asp:ContentPlaceHolder>
+
+  
+     
+  
+  </div>
+  <div id="footer">
+    <br/>
+    <a href="https://www.instagram.com/ucrkubra/"><i class="fab fa-instagram fa-5x"></i></a>
+    <a href="https://www.linkedin.com/in/k%C3%BCbra-u%C3%A7ar-7346741a1/"><i class="fab fa-linkedin fa-5x"></i></a>
+    
+    <h4 id="foot">This website is made by Kubra Ucar..</h4>
+   
+ 
+  </div>
+</div>
+
+    </form>
+
+</body>
+</html>

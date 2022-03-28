@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: 76% arial,sans-serif;
+    text-align: center
+}
+
+p {
+    margin: 0 10px 10px;
+    height: 25px;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+div#header {
+    background-color: #F3F2ED;
+}
+
+    div#header h1 {
+        height: 80px;
+        line-height: 80px;
+        margin: 0;
+        padding-left: 10px;
+    }
+
+div#navigation {
+    background: #eca87a;
+    height: 20cm;
+}
+
+    div#navigation ul {
+        margin: 15%;
+        padding: 0;
+        list-style-type: none;
+        font-size: 20px;
+    }
+
+    div#navigation li {
+        margin-bottom: 5px;
+    }
+
+div#extra {
+    background-image: url(./c.jpg);
+    height: 20cm;
+}
+
+div#footer {
+    background-image: url(./e.jpg);
+    height: 3cm;
+}
+
+div#container {
+    width: 700px;
+    margin: 0 auto
+}
+
+div#content {
+    float: right;
+    width: 500px
+}
+
+div#navigation {
+    float: left;
+    width: 200px
+}
+
+div#extra {
+    float: right;
+    width: 500px
+}
+
+div#footer {
+    clear: both;
+}
+
+#baslik {
+    background-image: url(./e.jpg);
+}
+
+#baslik2 {
+    color: rgb(5, 5, 5);
+}
+
+#obis {
+    border: darkorchid 2px;
+}
+
+.body {
+    background-image: url(./e.jpg);
+}
+
+#foot {
+    color: darkgray;
+}
